@@ -1,15 +1,15 @@
 import type { NextPage } from 'next'
 
-import { Header } from '../components'
+import { Header, Trending, CMCTable } from '../components'
 
 const Home: NextPage = () => {
   return (
     <div className='min-h-screen'>
       <Header />
       <div className='mt-10'></div>
-      {/* <Trending /> */}
+      <Trending />
       <div className='mt-20'></div>
-      {/* <CMCtable /> */}
+      <CMCTable />
     </div>
   )
 }
